@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google tag (gtag.js) --> 
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-LZB77FC4Q6"></script> 
+  <script>   window.dataLayer = window.dataLayer || [];   
+  function gtag(){dataLayer.push(arguments);}   
+  gtag('js', new Date());   gtag('config', 'G-LZB77FC4Q6'); </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details</title>
+    <link rel="stylesheet" href="css/product.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<!-- Header -->
+<header class="site-header">
+    <div class="header-container">
+      <div class="logo">
+        <a href="index.html" class="logo">Online Shop</a>
+      </div>
+      <nav class="nav-links">
+        <a id="auth-link" href="login.html">Login</a>
+        <a href="register.html">Register</a>
+        <a href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+      </nav>
+    </div>
+</header>
+
+    <div id="product-details">
+        <h1 id="product-name"></h1>
+        <img id="product-img" src="" alt="Product Image" />
+        <p id="product-description"></p>
+        <p><strong>Price:</strong> $<span id="product-price"></span></p>
+        <p id="product-info"></p>
+
+        <button id="cart">Add to Cart</button>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/product.js"></script>
+    <script>
+      $(document).ready(function () {
+          const isLoggedIn = JSON.parse(localStorage.getItem('isLoggedIn'));
+          const authLink = $('#auth-link');
+  
+          if (isLoggedIn) {
+              authLink.text('Logout');
+              authLink.attr('href', '#');
+              authLink.on('click', function (e) {
+                  e.preventDefault();
+                  localStorage.removeItem('isLoggedIn');
+                  localStorage.removeItem('user');
+                  localStorage.removeItem('cart');
+                  alert('You have been logged out.');
+                  window.location.href = 'login.html';
+              });
+          } else {
+              authLink.text('Login');
+              authLink.attr('href', 'login.html');
+          }
+      });
+  </script>
+    
+</body>
+
+</html>

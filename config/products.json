@@ -1,0 +1,128 @@
+[
+    {
+        "product_name": "Java Programming",
+        "product_type": "Books",
+        "product_img": "images/books/book01.jpg",
+        "product_info": "Comprehensive guide to Java programming covering from basics to advanced topics including multithreading and network programming.",
+        "product_price": 69.80
+    },
+    {
+        "product_name": "Python Crash Course",
+        "product_type": "Books",
+        "product_img": "images/books/book02.jpg",
+        "product_info": "Hands-on introduction to programming with Python, perfect for beginners with practical projects.",
+        "product_price": 99.00
+    },
+    {
+        "product_name": "Clean Code Handbook",
+        "product_type": "Books",
+        "product_img": "images/books/book03.jpg",
+        "product_info": "Essential handbook for writing maintainable and efficient code with best practices and principles.",
+        "product_price": 85.50
+    },
+    {
+        "product_name": "Organic Apples",
+        "product_type": "Food",
+        "product_img": "images/food/food01.jpg",
+        "product_info": "Fresh organic apples grown locally, packed with nutrients and perfect for healthy snacks.",
+        "product_price": 3.99
+    },
+    {
+        "product_name": "Whole Grain Bread",
+        "product_type": "Food",
+        "product_img": "images/food/food02.jpg",
+        "product_info": "Freshly baked whole grain bread with no preservatives, rich in fiber and nutrients.",
+        "product_price": 4.50
+    },
+    {
+        "product_name": "Greek Yogurt",
+        "product_type": "Food",
+        "product_img": "images/food/food03.jpg",
+        "product_info": "Creamy Greek yogurt high in protein, perfect for breakfast or as a healthy dessert.",
+        "product_price": 2.99
+    },
+    {
+        "product_name": "Cotton T-Shirt",
+        "product_type": "Clothes",
+        "product_img": "images/clothes/clothes01.jpg",
+        "product_info": "Comfortable 100% cotton t-shirt available in multiple colors, suitable for all seasons.",
+        "product_price": 19.99
+    },
+    {
+        "product_name": "Denim Jeans",
+        "product_type": "Clothes",
+        "product_img": "images/clothes/clothes02.jpg",
+        "product_info": "Classic fit denim jeans with stretch technology for maximum comfort and durability.",
+        "product_price": 49.99
+    },
+    {
+        "product_name": "Winter Jacket",
+        "product_type": "Clothes",
+        "product_img": "images/clothes/clothes03.jpg",
+        "product_info": "Waterproof winter jacket with thermal insulation, perfect for cold weather conditions.",
+        "product_price": 89.99
+    },
+    {
+        "product_name": "Wireless Earbuds",
+        "product_type": "Electronics",
+        "product_img": "images/electronics/electronics01.jpg",
+        "product_info": "High-quality wireless earbuds with noise cancellation and 20-hour battery life.",
+        "product_price": 129.99
+    },
+    {
+        "product_name": "Smart Watch",
+        "product_type": "Electronics",
+        "product_img": "images/electronics/electronics02.jpg",
+        "product_info": "Feature-rich smart watch with health monitoring, GPS, and smartphone notifications.",
+        "product_price": 199.99
+    },
+    {
+        "product_name": "Bluetooth Speaker",
+        "product_type": "Electronics",
+        "product_img": "images/electronics/electronics03.jpg",
+        "product_info": "Portable Bluetooth speaker with 15W output, waterproof design and 12-hour playtime.",
+        "product_price": 79.99
+    },
+    {
+        "product_name": "Ceramic Vase",
+        "product_type": "Decoration",
+        "product_img": "images/decoration/decoration01.jpg",
+        "product_info": "Handcrafted ceramic vase with modern design, perfect for home or office decoration.",
+        "product_price": 35.00
+    },
+    {
+        "product_name": "Wall Art Painting",
+        "product_type": "Decoration",
+        "product_img": "images/decoration/decoration02.jpg",
+        "product_info": "Canvas wall art painting with abstract design, ready to hang with included hardware.",
+        "product_price": 59.99
+    },
+    {
+        "product_name": "Decorative Cushions",
+        "product_type": "Decoration",
+        "product_img": "images/decoration/decoration03.jpg",
+        "product_info": "Set of 3 decorative cushions with premium fabric and various geometric patterns.",
+        "product_price": 45.00
+    },
+    {
+        "product_name": "Leather Sofa",
+        "product_type": "Furniture",
+        "product_img": "images/furniture/furniture01.jpg",
+        "product_info": "Premium genuine leather sofa with comfortable seating and modern design for living rooms.",
+        "product_price": 899.99
+    },
+    {
+        "product_name": "Coffee Table",
+        "product_type": "Furniture",
+        "product_img": "images/furniture/furniture02.jpg",
+        "product_info": "Solid wood coffee table with storage shelf, perfect for modern living spaces.",
+        "product_price": 249.99
+    },
+    {
+        "product_name": "Bookshelf",
+        "product_type": "Furniture",
+        "product_img": "images/furniture/furniture03.jpg",
+        "product_info": "5-tier wooden bookshelf with ample storage space for books and decorative items.",
+        "product_price": 179.99
+    }
+]

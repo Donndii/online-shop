@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google tag (gtag.js) --> 
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-LZB77FC4Q6"></script> 
+  <script>   window.dataLayer = window.dataLayer || [];   
+  function gtag(){dataLayer.push(arguments);}   
+  gtag('js', new Date());   gtag('config', 'G-LZB77FC4Q6'); </script>
+  <meta charset="UTF-8">
+  <title>Shopping Cart</title>
+  <link rel="stylesheet" href="css/cart.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+  <header class="site-header">
+    <div class="header-container">
+      <div class="logo">
+        <a href="index.html" class="logo" style="text-decoration: none;">Online Shop</a>
+      </div>
+      <nav class="nav-links">
+        <a href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+      </nav>
+    </div>
+  </header>
+<br>
+  <div id="cart-container">
+    <h2>Your Shopping Cart</h2>
+    <br>
+    <div id="cart-items"></div>
+    <div id="cart-total">
+      <h3>Total: $<span id="total-price">0.00</span></h3>
+    </div>
+  </div>
+  
+  <a id="checkout-btn" href="checkout.html">Proceed to Checkout</a> 
+
+
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="js/cart.js"></script> 
+  
+</body>
+
+</html>
